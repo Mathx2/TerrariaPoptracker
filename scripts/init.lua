@@ -1,11 +1,9 @@
-ENABLE_DEBUG_LOG = false
+ENABLE_DEBUG_LOG = true
 
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 Tracker:AddItems("items/items.json")
-
 Tracker:AddMaps("maps/maps.json")
-
 Tracker:AddLocations("locations/locations.json")
 
 Tracker:AddLayouts("layouts/tabs.json")
